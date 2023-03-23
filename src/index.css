@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Outfit:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat'; 
+}
+
+body {
+    background-color: #110E2B;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+}
+
+.galaxy {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://www.xtrafondos.com/descargar.php?id=3897&resolucion=1920x1080');
+    background-position: center, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border: none;
+    /* filter: brightness(90%); */
+}
+
+.galaxy__content {
+    /* border: 1px solid white; */
+    text-align: center;
+    height: 4rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0 auto;
+    color: white;
+    font-weight: 800;
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+h2 {
+    margin-top: 5px;
+    font-size: 1.3rem;
+}
+
+.galaxy__presentation {
+    /* border: 1px solid white; */
+    display: flex;
+    height: 33.5rem;
+    margin-top: 5.5rem;
+}
+
+.galaxy__presentation-container-1 {
+    margin-top: 1rem;
+    width: 50%;
+    text-align: center;
+    margin-left: 1rem;
+    /* border: 1px solid white; */
+}
+
+.galaxy__presentation-container-1 p {
+    font-size: 1.1rem;
+}
+
+.galaxy__presentation-container-2 p {
+    font-size: 1.1rem;
+}
+
+.galaxy__presentation-container-2 {
+    margin-top: 1rem;
+    width: 50%;
+    text-align: center;
+    margin-right: 1rem;
+    margin-left: 3rem;
+    /* border: 1px solid white; */
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+
