@@ -1,1 +1,1 @@
-# comite-intergalactico
+# Comité intergaláctico
